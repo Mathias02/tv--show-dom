@@ -1,3 +1,94 @@
 #root {
-  color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  color: #100101;
+  font-size: 20px;
+  width: 85vw;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  letter-spacing: .1rem;
+  background-color: #57635d;
 }
+header{
+  display: flex;
+  width: 70%;
+  padding: 1rem;
+  justify-content: center;
+  background-color: #479999;
+}
+
+.main{
+display: grid;
+width: 70%;
+gap: 5px;
+padding: 1rem;
+background-color: #d4efbc;
+grid-template-columns: repeat(3, 1fr);
+}
+.main >div{
+  padding: 3px;
+}
+img{ 
+  width: 100%;
+}
+.epname {
+  border: 2px solid black;
+  padding: 1rem;
+  font-size: 17px;
+  color: #fbfbfb;
+  background-color: #58a24e;
+}
+.seaname .epnumber{
+  margin: 0;
+}
+.searchbtn{
+  padding: 20px;
+  width: 50%;
+}
+.form{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+input {
+  padding: 8px;
+  border: none;
+}
+
+input[type='button']{
+  width: 70px;
+  cursor: pointer;
+  color: aliceblue;
+  font-weight: 300;
+  margin: 2px;
+  padding: 5px;
+  background-color: black;
+}
+input[type='search']{
+  width: 170px;
+  color: aliceblue;
+  font-weight: 300;
+  margin: 2px;
+  padding: 5px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+}
+.select {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+.selectBtn {
+padding: .2rem;
+font-size: 17px;
+border-radius: 3px;
+}
+
+
