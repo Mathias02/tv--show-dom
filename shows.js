@@ -16422,4 +16422,3 @@ function getAllShows() {
   ];
 
 }
-getAllEpisodes();
